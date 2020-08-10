@@ -1,0 +1,1 @@
+select * from study_set ss full outer join app_user au on ss.owner_id = au.user_id where user_id =5;
